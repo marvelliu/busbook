@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BusBook</string>
+    <string name="version">0.9</string>
+    <string name="author">Liu Wenmao</string>
+    <string name="busnum">公交号</string>
+    <string name="ok">确认</string>
+    <string name="cancel">取消</string>
+    <string name="pref">设置</string>
+    <string name="data_location">公交文件位置</string>
+	<string name="nobus">找不到公交</string>
+	<string name="nostops">找不到车站</string>
+	<string name="search_label">搜索</string>
+	<string name="settings_description">Bus</string>
+	<string name="about">关于</string>
+	<string name="search_results">结果</string>
+	<string name="bustime">时间：</string>
+	<string name="busstop">车站：</string>
+	<string name="search_via_num">搜索公交号码</string>
+	<string name="search_via_stop">搜索公交车站</string>
+	<string name="bus_stop_name">公交站名：</string>
+	<string name="search">搜索</string>
+	<string name="data_file">数据文件</string>
+	<string name="sort_result">搜索排序</string>
+	<string name="sort_result_s">对搜索公交号码的结果排序</string>
+	<string name="about_this_tool">
+		本工具是为需要搜索公交车辆和公交车站的人们设计的，
+		献给 happygirl:-)
+	</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  >
+	<TextView android:text="@string/pref"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceLarge" />
+	<TextView android:text="@string/data_location"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium" />
+	 <ListView   android:id="@+id/lstViewDataFiles"
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+	    android:textAppearance="?android:attr/textAppearanceMedium"
+    />
+    
+	 <CheckBox android:id="@+id/chkSortResult"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="@string/sort_result"
+		android:layout_x="50px" android:layout_y="22px"
+		android:textAppearance="?android:attr/textAppearanceMedium" >
+	</CheckBox>
+
+    
+    <TextView android:text=""
+		android:id="@+id/txtDataLocation" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+	    android:textAppearance="?android:attr/textAppearanceMedium"/>
+	<LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+  	  android:orientation="horizontal">
+		<Button android:text="@string/ok" 
+			android:id="@+id/btnPrefOK" 
+			android:layout_width="80dip" 
+			android:layout_height="wrap_content"
+			/>
+		<Button android:text="@string/cancel" 
+			android:id="@+id/btnPrefCancel" 
+			android:layout_width="80dip" 
+			android:layout_height="wrap_content"/>
+	</LinearLayout>
+		
+</LinearLayout>

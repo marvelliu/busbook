@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceCategory android:title="@string/data_file">
+	<ListPreference android:title="@string/data_location" 
+		android:key="lstViewDataFiles" 
+		android:dialogTitle="@string/data_location">
+	</ListPreference>
+</PreferenceCategory>
+
+<PreferenceCategory android:title="@string/search">
+	<CheckBoxPreference  android:title="@string/sort_result" 
+		android:key="chkSortResult" 
+		android:summary="@string/sort_result_s">
+	</CheckBoxPreference>
+</PreferenceCategory>
+
+</PreferenceScreen>

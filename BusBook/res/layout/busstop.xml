@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <LinearLayout
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:orientation="horizontal">
+    	
+	    
+	    <TextView
+	        android:layout_width="wrap_content"
+	       	android:layout_height="wrap_content"
+	       	android:text="@string/app_name"
+	       	android:textAppearance="?android:attr/textAppearanceLarge" android:layout_margin="10dip"/>
+	    
+	    <TextView
+	        android:layout_width="wrap_content"
+	       	android:layout_height="wrap_content"
+	       	android:text="@string/search_via_stop"
+	       	android:textAppearance="?android:attr/textAppearanceMedium" android:layout_margin="10dip"/>
+	</LinearLayout>
+	        	
+    <LinearLayout
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:orientation="horizontal">
+    	
+    	<TextView android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:text="@string/bus_stop_name"/>
+	    
+	  	<EditText android:id="@+id/edtSearchStopName"
+	          android:layout_width="180dip"
+	        	android:layout_height="wrap_content" />
+	        	
+		<Button android:text="@string/search"
+		 android:id="@+id/btnSearchStop"
+		 android:layout_width="80dip" 
+		 android:layout_height="wrap_content"></Button>
+		 
+	</LinearLayout>
+	
+	<LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+    
+	    <ListView android:id="@+id/lstSearchStops"
+	          android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"/>
+	  	<TextView android:id="@+id/android:empty"
+	          android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:text="@string/nostops"/>
+	</LinearLayout>
+	
+
+</LinearLayout>

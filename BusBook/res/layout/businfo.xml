@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:orientation="vertical">
+  
+  
+  	<TextView   android:id="@+id/txtViewBusnum"
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content"
+		    android:text="@string/busnum"
+		    android:textAppearance="?android:attr/textAppearanceLarge" 
+	 />
+	 
+	<LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:orientation="horizontal">
+  
+		  <TextView
+			    android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content" 
+			    android:text="@string/bustime"
+			    android:textAppearance="?android:attr/textAppearanceMedium"
+		    />
+		    
+		 	<TextView   android:id="@+id/txtViewBusTime"
+			    android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content"
+			    android:textAppearance="?android:attr/textAppearanceMedium"
+		    />
+    </LinearLayout>
+    
+    <TextView
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:text="@string/busstop"
+	    />
+    <ListView   android:id="@+id/lstViewBusStop"
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+	    android:textAppearance="?android:attr/textAppearanceMedium"
+    />
+</LinearLayout>

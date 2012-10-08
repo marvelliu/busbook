@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BusBook</string>
+    <string name="version">0.9</string>
+    <string name="author">Liu Wenmao</string>
+    <string name="busnum">Bus:</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="pref">Preference</string>
+    <string name="data_location">Bus file location:</string>
+	<string name="nobus">No Bus found.</string>
+	<string name="nostops">No Stop found.</string>
+	<string name="search_label">Search</string>
+	<string name="settings_description">Bus</string>
+	<string name="about">About</string>
+	<string name="search_results">Results</string>
+	<string name="bustime">Time:</string>
+	<string name="busstop">Stops:</string>
+	<string name="search_via_num">Search Bus Number</string>
+	<string name="search_via_stop">Search Bus Stop</string>
+	<string name="bus_stop_name">Bus Stop:</string>
+	<string name="search">Search</string>
+	<string name="data_file">Data file</string>
+	<string name="sort_result">Sort result</string>
+	<string name="sort_result_s">Sort the bus number search result</string>
+	<string name="about_this_tool">
+		This tool is for people who want to query buses and bus stops.
+		Dedicated to happygirl:-)
+	</string>
+</resources>
